@@ -13,7 +13,7 @@ body {
 
 .container1 {
   background-color: rgba(19, 18, 18, 0.9450980392);
-  width: 450px;
+  max-width: 450px;
   height: auto;
 }
 
@@ -35,6 +35,13 @@ body {
 }
 .btnSend .footer {
   margin-top: 300px;
+}
+
+@media (max-width: 480px) {
+  .container1 {
+    width: auto;
+    margin: 0 1rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
