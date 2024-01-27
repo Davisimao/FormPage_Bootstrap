@@ -13,7 +13,7 @@ body{
 
 .container1{
   background-color:$background-color;
-  width: 450px;
+  max-width: 450px;
   height: auto;
 }
 
@@ -38,4 +38,13 @@ body{
     margin-top: 300px;
 
   }
+}
+
+@media (max-width: 480px){
+  .container1{
+    width: auto;
+    margin: 0 1rem;
+    
+  }
+  
 }
